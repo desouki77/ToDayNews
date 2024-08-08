@@ -1,0 +1,25 @@
+
+.nav-bar{
+    justify-content:center ;
+}
+.bg-light {
+    background-color:#E9DAC1 !important;
+    
+}
+.nav-bar ul li a:hover{
+    color: #AC7088 !important;
+    font-size: 20px;
+    font-weight: 300;
+    /* margin-left: 20px; */
+    transition: .5s;
+}
+.container-fluid .logo{
+    font-size: 25px;
+
+}
+.container-fluid .logo span{
+    color: #AC7088;
+    font-size: 35px; 
+}
+
+

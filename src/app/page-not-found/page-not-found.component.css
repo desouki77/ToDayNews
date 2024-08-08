@@ -1,0 +1,15 @@
+@keyframes translate 
+{
+    from {
+        padding-top: 600px;
+    }
+    to{
+        padding-bottom: 0px;
+    }
+}
+h1{
+    animation-name: translate;
+    animation-duration: 2s;
+    text-align: center;
+ 
+}

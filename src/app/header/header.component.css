@@ -1,0 +1,39 @@
+.box 
+{
+    padding: 10px 10px;
+    background-color: rgb(240, 240, 240);
+
+}
+.container
+
+{
+    animation-name: translate;
+    animation-duration: 2s;
+
+}
+.box h5 
+{
+    font-size: 18px;
+    
+}
+.box a{
+    background-color: #AC7088 !important;
+    border: none;
+}
+.box a:hover{
+    margin-left: 20px;
+    transition: .5s;
+}
+.box:hover{
+    box-shadow: 0px 0px 12px 12px #AC7088;
+    transition: 0.5s;
+}
+@keyframes translate 
+{
+    from {
+        padding-top: 600px;
+    }
+    to{
+        padding-bottom: 0px;
+    }
+}
